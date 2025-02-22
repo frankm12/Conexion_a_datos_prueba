@@ -7,7 +7,7 @@ namespace Capa_de_datos
 {
     public class Class1
     {
-        private string connectionString = "Server=.; Database = Prueba_con_ramon; Integrated Security =true";
+        public string connectionString = "Server=.; Database = Prueba_con_ramon; Integrated Security =true";
 
         public void InsertarPersona(string nombre, string apellido)
         {
